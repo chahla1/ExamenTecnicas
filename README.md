@@ -14,7 +14,12 @@ Seleccionaria a los primeros P de la lista, que son los que caben en el coche. A
 #Ejercicio8
 
 En la pila, se almacenan el metodo main, ya que se declara la variable p, y el metodo imprimePersona, ya que es una copia de la referencia p.
-En el Heap,se almacena el objeto nwe Persona(); ya que crea una instancia de Persona.
+En el Heap, se almacena el objeto nwe Persona(); ya que crea una instancia de Persona.
 Se inserta cuando la referencia p se almacena en la pila cuando se declara en main() y cuando el objeto Persona se crea en el Heap.
 Se liberan cuando imprimePersona() termina y cuando main() termina de finalizarse.
+
+#Ejercicio9
+
+El GC funciona en segundo plano buscando objetos sin referencias y los elimina cuando le da la gana. Es facil de usar y evita errores, pero puede hacer pausas molestas y usa mas memoria.
+En cambio, el ARC cuenta cuantas referencias tiene un objeto y lo elimina en cuanto llega a 0. Es mas eficiente y predecible, pero puede causar problemas si hay referencias circulares, porque nunca llegan a 0.
 
