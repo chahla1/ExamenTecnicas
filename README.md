@@ -8,8 +8,6 @@ y las aristas representan los pasillos o caminos que conectan dos habitaciones. 
 #Ejercicio5
 
 Si tuviera que implementar un codigo avido para el proceso, lo que haria seria lo siguiente:
-Ordenaria a las personas segun el nivel de cariño, de mayor a menor. Asi, priorizo a los que mas quiero.
+Ordenaria a las personas segun el nivel de cariño, de mayor a menor, priorizando a los que mas quiero.
+Seleccionaria a los primeros P de la lista, que son los que caben en el coche. Asique, en ese caso, entrarian primero a los que les tengo mas cariño, como por ejemplo a la esposa.
 
-Seleccionaria a los primeros P de la lista, que son los que caben en el coche. Voy eligiendo uno por uno hasta llenar las plazas.
-
-Llevarme a los seleccionados y  asi optimizo el cariño total dentro del coche.
